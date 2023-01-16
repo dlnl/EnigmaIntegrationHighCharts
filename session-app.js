@@ -29,7 +29,8 @@ var mySeries = {};
 
     try {
         const global = await session.open();
-        const app = await global.getActiveDoc();
+        // const app = await global.getActiveDoc();
+        const app = await global.openDoc(appId);
         // const result = await app.evaluate('COUNT([Country])');
         // console.log(result)
 
