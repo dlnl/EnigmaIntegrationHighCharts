@@ -11,7 +11,6 @@ var mySeries = {};
 
 
 (async () => {
-    const randomId = Math.random().toString(32).substring(3);
     const appId = process.env.APPID
     const tenant = process.env.TENANT
     const apiKey = process.env.APIKEY
