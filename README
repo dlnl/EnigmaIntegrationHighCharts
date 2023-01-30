@@ -1,15 +1,16 @@
 #####################################
 Installation:
-create a .env file with the following
+1. create a .env file in your project folder with the following (no brackets or ""):
 APPID=<your app id>
 TENANT=<your tenant name>
 APIKEY=<your API key>
 PORT=<PORT NUMBER, for example: 3000>
 
-Run 'npm install' to have all required packages installed.
+2. Open a commandline and go to your project folder. Run 'npm install' to
+have all required packages installed.
 
 #####################################
-To run simple execute 'node session-app.js'
+To run, simply type and execute in your commandline 'node session-app.js'
 Open your browser go to http://localhost:<PORT NUMBER>
 
 
